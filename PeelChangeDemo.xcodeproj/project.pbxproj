@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0041AB1715020A00AAFAAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0041AA1715020A00AAFAAD /* UIKit.framework */; };
+		4D0041AD1715020A00AAFAAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0041AC1715020A00AAFAAD /* Foundation.framework */; };
+		4D0041AF1715020A00AAFAAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0041AE1715020A00AAFAAD /* CoreGraphics.framework */; };
+		4D0041B51715020B00AAFAAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0041B31715020B00AAFAAD /* InfoPlist.strings */; };
+		4D0041B71715020B00AAFAAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0041B61715020B00AAFAAD /* main.m */; };
+		4D0041BB1715020B00AAFAAD /* QAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0041BA1715020B00AAFAAD /* QAppDelegate.m */; };
+		4D0041BD1715020B00AAFAAD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0041BC1715020B00AAFAAD /* Default.png */; };
+		4D0041BF1715020B00AAFAAD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0041BE1715020B00AAFAAD /* Default@2x.png */; };
+		4D0041C11715020B00AAFAAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0041C01715020B00AAFAAD /* Default-568h@2x.png */; };
+		4D0041C41715020B00AAFAAD /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0041C31715020B00AAFAAD /* QViewController.m */; };
+		4D0041C71715020B00AAFAAD /* QViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0041C51715020B00AAFAAD /* QViewController.xib */; };
+		4D0041CF1715020B00AAFAAD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0041CE1715020B00AAFAAD /* SenTestingKit.framework */; };
+		4D0041D01715020B00AAFAAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0041AA1715020A00AAFAAD /* UIKit.framework */; };
+		4D0041D11715020B00AAFAAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0041AC1715020A00AAFAAD /* Foundation.framework */; };
+		4D0041D91715020B00AAFAAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0041D71715020B00AAFAAD /* InfoPlist.strings */; };
+		4D0041DC1715020B00AAFAAD /* PeelChangeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0041DB1715020B00AAFAAD /* PeelChangeDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D0041D21715020B00AAFAAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D00419D1715020A00AAFAAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0041A51715020A00AAFAAD;
+			remoteInfo = PeelChangeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0041A61715020A00AAFAAD /* PeelChangeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeelChangeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0041AA1715020A00AAFAAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D0041AC1715020A00AAFAAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D0041AE1715020A00AAFAAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D0041B21715020B00AAFAAD /* PeelChangeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeelChangeDemo-Info.plist"; sourceTree = "<group>"; };
+		4D0041B41715020B00AAFAAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D0041B61715020B00AAFAAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0041B81715020B00AAFAAD /* PeelChangeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeelChangeDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4D0041B91715020B00AAFAAD /* QAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAppDelegate.h; sourceTree = "<group>"; };
+		4D0041BA1715020B00AAFAAD /* QAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAppDelegate.m; sourceTree = "<group>"; };
+		4D0041BC1715020B00AAFAAD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D0041BE1715020B00AAFAAD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D0041C01715020B00AAFAAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D0041C21715020B00AAFAAD /* QViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
+		4D0041C31715020B00AAFAAD /* QViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
+		4D0041C61715020B00AAFAAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QViewController.xib; sourceTree = "<group>"; };
+		4D0041CD1715020B00AAFAAD /* PeelChangeDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeelChangeDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0041CE1715020B00AAFAAD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D0041D61715020B00AAFAAD /* PeelChangeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeelChangeDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4D0041D81715020B00AAFAAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D0041DA1715020B00AAFAAD /* PeelChangeDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeelChangeDemoTests.h; sourceTree = "<group>"; };
+		4D0041DB1715020B00AAFAAD /* PeelChangeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeelChangeDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0041A31715020A00AAFAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0041AB1715020A00AAFAAD /* UIKit.framework in Frameworks */,
+				4D0041AD1715020A00AAFAAD /* Foundation.framework in Frameworks */,
+				4D0041AF1715020A00AAFAAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0041C91715020B00AAFAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0041CF1715020B00AAFAAD /* SenTestingKit.framework in Frameworks */,
+				4D0041D01715020B00AAFAAD /* UIKit.framework in Frameworks */,
+				4D0041D11715020B00AAFAAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D00419B1715020A00AAFAAD = {
+			isa = PBXGroup;
+			children = (
+				4D0041B01715020B00AAFAAD /* PeelChangeDemo */,
+				4D0041D41715020B00AAFAAD /* PeelChangeDemoTests */,
+				4D0041A91715020A00AAFAAD /* Frameworks */,
+				4D0041A71715020A00AAFAAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0041A71715020A00AAFAAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0041A61715020A00AAFAAD /* PeelChangeDemo.app */,
+				4D0041CD1715020B00AAFAAD /* PeelChangeDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0041A91715020A00AAFAAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0041AA1715020A00AAFAAD /* UIKit.framework */,
+				4D0041AC1715020A00AAFAAD /* Foundation.framework */,
+				4D0041AE1715020A00AAFAAD /* CoreGraphics.framework */,
+				4D0041CE1715020B00AAFAAD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0041B01715020B00AAFAAD /* PeelChangeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4D0041B91715020B00AAFAAD /* QAppDelegate.h */,
+				4D0041BA1715020B00AAFAAD /* QAppDelegate.m */,
+				4D0041C21715020B00AAFAAD /* QViewController.h */,
+				4D0041C31715020B00AAFAAD /* QViewController.m */,
+				4D0041C51715020B00AAFAAD /* QViewController.xib */,
+				4D0041B11715020B00AAFAAD /* Supporting Files */,
+			);
+			path = PeelChangeDemo;
+			sourceTree = "<group>";
+		};
+		4D0041B11715020B00AAFAAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0041B21715020B00AAFAAD /* PeelChangeDemo-Info.plist */,
+				4D0041B31715020B00AAFAAD /* InfoPlist.strings */,
+				4D0041B61715020B00AAFAAD /* main.m */,
+				4D0041B81715020B00AAFAAD /* PeelChangeDemo-Prefix.pch */,
+				4D0041BC1715020B00AAFAAD /* Default.png */,
+				4D0041BE1715020B00AAFAAD /* Default@2x.png */,
+				4D0041C01715020B00AAFAAD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0041D41715020B00AAFAAD /* PeelChangeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D0041DA1715020B00AAFAAD /* PeelChangeDemoTests.h */,
+				4D0041DB1715020B00AAFAAD /* PeelChangeDemoTests.m */,
+				4D0041D51715020B00AAFAAD /* Supporting Files */,
+			);
+			path = PeelChangeDemoTests;
+			sourceTree = "<group>";
+		};
+		4D0041D51715020B00AAFAAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0041D61715020B00AAFAAD /* PeelChangeDemoTests-Info.plist */,
+				4D0041D71715020B00AAFAAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0041A51715020A00AAFAAD /* PeelChangeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0041DF1715020B00AAFAAD /* Build configuration list for PBXNativeTarget "PeelChangeDemo" */;
+			buildPhases = (
+				4D0041A21715020A00AAFAAD /* Sources */,
+				4D0041A31715020A00AAFAAD /* Frameworks */,
+				4D0041A41715020A00AAFAAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeelChangeDemo;
+			productName = PeelChangeDemo;
+			productReference = 4D0041A61715020A00AAFAAD /* PeelChangeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D0041CC1715020B00AAFAAD /* PeelChangeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0041E21715020B00AAFAAD /* Build configuration list for PBXNativeTarget "PeelChangeDemoTests" */;
+			buildPhases = (
+				4D0041C81715020B00AAFAAD /* Sources */,
+				4D0041C91715020B00AAFAAD /* Frameworks */,
+				4D0041CA1715020B00AAFAAD /* Resources */,
+				4D0041CB1715020B00AAFAAD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0041D31715020B00AAFAAD /* PBXTargetDependency */,
+			);
+			name = PeelChangeDemoTests;
+			productName = PeelChangeDemoTests;
+			productReference = 4D0041CD1715020B00AAFAAD /* PeelChangeDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D00419D1715020A00AAFAAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Q;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = liubinbin;
+			};
+			buildConfigurationList = 4D0041A01715020A00AAFAAD /* Build configuration list for PBXProject "PeelChangeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D00419B1715020A00AAFAAD;
+			productRefGroup = 4D0041A71715020A00AAFAAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0041A51715020A00AAFAAD /* PeelChangeDemo */,
+				4D0041CC1715020B00AAFAAD /* PeelChangeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0041A41715020A00AAFAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0041B51715020B00AAFAAD /* InfoPlist.strings in Resources */,
+				4D0041BD1715020B00AAFAAD /* Default.png in Resources */,
+				4D0041BF1715020B00AAFAAD /* Default@2x.png in Resources */,
+				4D0041C11715020B00AAFAAD /* Default-568h@2x.png in Resources */,
+				4D0041C71715020B00AAFAAD /* QViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0041CA1715020B00AAFAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0041D91715020B00AAFAAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D0041CB1715020B00AAFAAD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0041A21715020A00AAFAAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0041B71715020B00AAFAAD /* main.m in Sources */,
+				4D0041BB1715020B00AAFAAD /* QAppDelegate.m in Sources */,
+				4D0041C41715020B00AAFAAD /* QViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0041C81715020B00AAFAAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0041DC1715020B00AAFAAD /* PeelChangeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D0041D31715020B00AAFAAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0041A51715020A00AAFAAD /* PeelChangeDemo */;
+			targetProxy = 4D0041D21715020B00AAFAAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D0041B31715020B00AAFAAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0041B41715020B00AAFAAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D0041C51715020B00AAFAAD /* QViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0041C61715020B00AAFAAD /* en */,
+			);
+			name = QViewController.xib;
+			sourceTree = "<group>";
+		};
+		4D0041D71715020B00AAFAAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0041D81715020B00AAFAAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0041DD1715020B00AAFAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D0041DE1715020B00AAFAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D0041E01715020B00AAFAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeelChangeDemo/PeelChangeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PeelChangeDemo/PeelChangeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D0041E11715020B00AAFAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeelChangeDemo/PeelChangeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PeelChangeDemo/PeelChangeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D0041E31715020B00AAFAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeelChangeDemo.app/PeelChangeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeelChangeDemo/PeelChangeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PeelChangeDemoTests/PeelChangeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4D0041E41715020B00AAFAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeelChangeDemo.app/PeelChangeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeelChangeDemo/PeelChangeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PeelChangeDemoTests/PeelChangeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0041A01715020A00AAFAAD /* Build configuration list for PBXProject "PeelChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0041DD1715020B00AAFAAD /* Debug */,
+				4D0041DE1715020B00AAFAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0041DF1715020B00AAFAAD /* Build configuration list for PBXNativeTarget "PeelChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0041E01715020B00AAFAAD /* Debug */,
+				4D0041E11715020B00AAFAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0041E21715020B00AAFAAD /* Build configuration list for PBXNativeTarget "PeelChangeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0041E31715020B00AAFAAD /* Debug */,
+				4D0041E41715020B00AAFAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D00419D1715020A00AAFAAD /* Project object */;
+}
